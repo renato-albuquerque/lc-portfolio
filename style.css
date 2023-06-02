@@ -1,0 +1,91 @@
+/* reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --blue-color: #00294F;
+    --orange-color: #DA5826;
+    --white-color: white;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;    /* TEST */
+}
+
+/* header */
+
+.hide {
+    display: none;
+}
+
+.portfolioHide {
+    color: var(--blue-color);
+}
+
+.mobileMenuHide {
+    display: none;
+}
+
+.containerHeader {
+    background-color: var(--blue-color);
+}
+
+.header {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.logoPortfolio {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navigation-1 .logoPortfolio span {
+    color: var(--orange-color);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navigation-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.navigation-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fa-bars, .fa-share-nodes {
+    color: var(--white-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-bars:hover, .fa-share-nodes:hover {
+    color: var(--orange-color);
+    transition: color 0.2s ease;
+}
