@@ -15,6 +15,9 @@
     --blue-color: #00294F;
     --orange-color: #DA5826;
     --white-color: white;
+
+    --ubuntu: 'Ubuntu', sans-serif;
+    --poppins: 'Poppins', sans-serif;
 }
 
 body {
@@ -89,3 +92,49 @@ body {
     color: var(--orange-color);
     transition: color 0.2s ease;
 }
+
+/* main */
+
+.main {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.imageMain {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.textsMain {
+    padding: 0 2rem;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2.5rem;
+    color: var(--blue-color);
+}
+
+.textThreeMain {
+    color: var(--orange-color);
+}
+
+.textFourMain {
+    margin-bottom: 2rem;
+    color: var(--orange-color);
+}
+
+.buttonMain {
+    background-color: var(--blue-color);
+    color: var(--orange-color);
+    font-family: var(--ubuntu);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+}
+
+/* about */
+
