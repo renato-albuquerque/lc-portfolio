@@ -23,7 +23,6 @@
 body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid black;    /* TEST */
 }
 
 /* header */
@@ -32,21 +31,26 @@ body {
     display: none;
 }
 
-.portfolioHide {
-    color: var(--blue-color);
-}
-
 .mobileMenuHide {
     display: none;
 }
 
 .containerHeader {
     background-color: var(--blue-color);
+
+    position: fixed; /* Way to fixed the header part. */
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header {
     width: 30rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 .logoPortfolio {
@@ -63,23 +67,9 @@ body {
     font-size: 2rem;
 }
 
-.navigation-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-}
-
 .navigation-2 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    gap: 3rem;
 }
 
 .fa-bars, .fa-share-nodes {
@@ -99,6 +89,8 @@ body {
     width: 30rem;
     margin: 0 auto;
     margin-bottom: 4rem;
+
+    border: 1px solid black;    /* TEST */
 }
 
 .imageMain {
@@ -106,7 +98,7 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 2rem;
-    margin-top: 4rem;
+    margin-top: 7rem;
     margin-bottom: 2rem;
 }
 
@@ -142,6 +134,8 @@ body {
     width: 30rem;
     margin: 0 auto;
     margin-bottom: 4rem;
+
+    border: 1px solid black;    /* TEST */
 }
 
 .titleAbout {
@@ -165,4 +159,3 @@ body {
     font-size: 1.4rem;
     padding: 0 2rem;
 }
-
