@@ -138,3 +138,31 @@ body {
 
 /* about */
 
+.about {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleAbout {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.textAbout-1 {
+    color: var(--blue-color);
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.textAbout-2 {
+    color: var(--blue-color);
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+
