@@ -205,7 +205,7 @@ body {
 .services {
     width: 30rem;
     margin: 0 auto;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;    /* The standard is 4rem. 2rem because the class "textServices" has 2rem (2rem + 2rem = 4rem). */
 }
 
 .titleServices {
@@ -233,4 +233,39 @@ body {
     font-size: 1.4rem;
     text-align: justify;
     margin-bottom: 2rem;
+}
+
+/* skills */
+
+.skills {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleSkills {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.subtitleskills {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.textSkills, .subtitleskills {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    list-style: square;
+    list-style-position: inside;
 }

@@ -1,6 +1,6 @@
 // variables
 
-const buttonShare = document.querySelector(".share")
+
 
 // functions
 
