@@ -89,8 +89,6 @@ body {
     width: 30rem;
     margin: 0 auto;
     margin-bottom: 4rem;
-
-    border: 1px solid black;    /* TEST */
 }
 
 .imageMain {
@@ -134,8 +132,6 @@ body {
     width: 30rem;
     margin: 0 auto;
     margin-bottom: 4rem;
-
-    border: 1px solid black;    /* TEST */
 }
 
 .titleAbout {
@@ -166,8 +162,6 @@ body {
     width: 30rem;
     margin: 0 auto;
     margin-bottom: 4rem;
-
-    border: 1px solid black;    /* TEST */
 }
 
 .titleEducation {
@@ -184,8 +178,7 @@ body {
     align-items: center;
     gap: 1rem;
     padding: 0 2rem;
-    margin-bottom: 1rem;
-    background-color: #00294f1c;
+    margin-bottom: 2rem;
 }
 
 .logoUfc {
