@@ -159,3 +159,55 @@ body {
     font-size: 1.4rem;
     padding: 0 2rem;
 }
+
+/* education */
+
+.education {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+
+    border: 1px solid black;    /* TEST */
+}
+
+.titleEducation {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.firstEducation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    background-color: #00294f1c;
+}
+
+.logoUfc {
+    width: 25%;
+}
+
+.secondEducation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.logoIbmec {
+    width: 25%;
+}
+
+.textEducation {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    
+}
