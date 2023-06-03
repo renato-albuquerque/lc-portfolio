@@ -181,10 +181,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.logoUfc {
-    width: 25%;
-}
-
 .secondEducation {
     display: flex;
     flex-direction: row-reverse;
@@ -194,7 +190,7 @@ body {
     padding: 0 2rem;
 }
 
-.logoIbmec {
+.logoUfc, .logoIbmec {
     width: 25%;
 }
 
@@ -202,5 +198,39 @@ body {
     color: var(--blue-color);
     text-align: left;
     font-size: 1.4rem;
-    
+}
+
+/* services */
+
+.services {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleServices {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.alignServices {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.iconServices {
+    color: var(--orange-color);
+    font-size: 1.6rem;
+}
+
+.textServices {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
 }
