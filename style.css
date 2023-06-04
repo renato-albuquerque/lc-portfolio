@@ -108,6 +108,14 @@ body {
     color: var(--blue-color);
 }
 
+.textOneMain {
+    margin-bottom: 1rem;
+}
+
+.textTwoMain {
+    margin-bottom: 1rem;
+}
+
 .textThreeMain {
     color: var(--orange-color);
 }
@@ -117,13 +125,29 @@ body {
     color: var(--orange-color);
 }
 
-.buttonMain {
+/* .buttonMain {
     background-color: var(--blue-color);
     color: var(--orange-color);
     font-family: var(--ubuntu);
     font-weight: bold;
     padding: 1rem 2rem;
     border-radius: 3rem;
+} */
+
+.iconsMain {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fa-square-whatsapp, .fa-envelope, .fa-linkedin {
+    color: var(--blue-color);
+    font-size: 2.5rem;
+}
+
+.fa-square-whatsapp:hover, .fa-envelope:hover, .fa-linkedin:hover {
+    color: var(--orange-color);
+    transition: all .2s;
 }
 
 /* about */
@@ -194,6 +218,11 @@ body {
     width: 25%;
 }
 
+.iconTextEducation {
+    display: flex;
+    gap: 1rem;
+}
+
 .textEducation {
     color: var(--blue-color);
     text-align: left;
@@ -240,7 +269,7 @@ body {
 .skills {
     width: 30rem;
     margin: 0 auto;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;    /* The standard is 4rem. 2rem because the class "textSkills" has 2rem (2rem + 2rem = 4rem). */
 }
 
 .titleSkills {
@@ -265,9 +294,13 @@ body {
     font-size: 1.4rem;
     text-align: justify;
     margin-bottom: 2rem;
+}
+
+.iconTextSkills {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
     padding: 0 2rem;
-    list-style: square;
-    list-style-position: inside;
 }
 
 /* contacts */
@@ -300,12 +333,12 @@ body {
     margin-bottom: 1rem;
 }
 
-.fa-square-whatsapp, .fa-envelope, .fa-linkedin {
+.fa-whatsapp, .fa-regular, .fa-linkedin-in {
     color: var(--orange-color);
     font-size: 1.8rem;
 }
 
-.fa-square-whatsapp:hover, .fa-envelope:hover, .fa-linkedin:hover {
+.fa-whatsapp:hover, .fa-regular:hover, .fa-linkedin-in:hover {
     color: var(--blue-color);
     transition: all .2s;
 }
