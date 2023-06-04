@@ -269,3 +269,71 @@ body {
     list-style: square;
     list-style-position: inside;
 }
+
+/* contacts */
+
+.contacts {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleContacts {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+    padding: 0 2rem;
+}
+
+.iconTextContacts {
+    display: flex;
+    align-items: baseline;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.textContacts {
+    color: var(--blue-color);
+    font-size: 1.4rem;
+    font-family: var(--poppins);
+    margin-bottom: 1rem;
+}
+
+.fa-square-whatsapp, .fa-envelope, .fa-linkedin {
+    color: var(--orange-color);
+    font-size: 1.8rem;
+}
+
+.fa-square-whatsapp:hover, .fa-envelope:hover, .fa-linkedin:hover {
+    color: var(--blue-color);
+    transition: all .2s;
+}
+
+/* footer */
+
+.containerFooter {
+    background-color: var(--blue-color);
+}
+
+.footer {
+    width: 30rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.textFooter {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer-a {
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
+.footer-a:hover {
+    color: var(--white-color);
+    transition: all .2s;
+}
