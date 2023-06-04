@@ -20,6 +20,10 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
@@ -373,4 +377,13 @@ body {
 .footer-a:hover {
     color: var(--white-color);
     transition: all .2s;
+}
+
+.fa-arrow-up-from-bracket {   
+    position: fixed;
+    right: 66rem;
+    bottom: 2.5rem;
+    color: #DA5826;
+    /* font-size: 3rem; */
+    font-weight: bold;
 }
