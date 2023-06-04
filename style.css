@@ -288,6 +288,10 @@ body {
     padding: 0 2rem;
 }
 
+.iconSkills {
+    font-size: 1.2rem;
+}
+
 .textSkills, .subtitleskills {
     color: var(--blue-color);
     text-align: left;
