@@ -28,15 +28,15 @@
             </nav>
             <nav>
                 <div class="navigation-2">
-                    <i class="fa-solid fa-bars"></i>
-                    <ul class="mobileMenuHide">
-                        <li><a class="mobileMenuItem" href="#home"></a>Home</li>
-                        <li><a class="mobileMenuItem" href="#about"></a>Sobre</li>
-                        <li><a class="mobileMenuItem" href="#education"></a>Formação</li>
-                        <li><a class="mobileMenuItem" href="#services"></a>Serviços</li>
-                        <li><a class="mobileMenuItem" href="#skills"></a>Habilidades</li>
-                        <li><a class="mobileMenuItem" href="#contacts"></a>Contatos</li>
-                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openMenuHamburger()"></i>
+                    <div class="mobileMenuHide">
+                        <a class="mobileMenuItem" href="#home">Home</a>
+                        <a class="mobileMenuItem" href="#about">Sobre</a>
+                        <a class="mobileMenuItem" href="#education">Formação</a>
+                        <a class="mobileMenuItem" href="#services">Serviços</a>
+                        <a class="mobileMenuItem" href="#skills">Habilidades</a>
+                        <a class="mobileMenuItem" href="#contacts">Contatos</a>
+                    </div>
                     <i class="fa-solid fa-share-nodes" onclick="share()"></i>
                 </div>
             </nav>
@@ -182,9 +182,9 @@
         <footer class="footer">
             <p class="textFooter">Desenvolvido por <a class="footer-a" href="https://rma-contacts.vercel.app/" target="blank">Renato Albuquerque</a></p>
             <p class="textFooter">Engenheiro de Software</p>
+            
+            <!-- <a class="footer-chevron-up" href="#home"><i class="fa-solid fa-arrow-up-from-bracket"></i></a> -->
         </footer>
-        
-        <a class="footer-chevron-up" href="#home"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
     </div>
 
 </body>
