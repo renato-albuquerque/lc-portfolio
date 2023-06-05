@@ -3,6 +3,12 @@
 const menuHamburger = document.querySelector(".fa-bars")
 const mobileMenuHide = document.querySelector(".mobileMenuHide")
 const mobileMenuOpen = document.querySelector(".mobileMenuOpen")
+const mobileMenuItemHome = document.querySelector(".mobileMenuItemHome")
+const mobileMenuItemAbout = document.querySelector(".mobileMenuItemAbout")
+const mobileMenuItemEducation = document.querySelector(".mobileMenuItemEducation")
+const mobileMenuItemServices = document.querySelector(".mobileMenuItemServices")
+const mobileMenuItemSkills = document.querySelector(".mobileMenuItemSkills")
+const mobileMenuItemContacts = document.querySelector(".mobileMenuItemContacts")
 
 // functions
 
@@ -16,6 +22,12 @@ function openMenuHamburger() {
         menuHamburger.classList.add("fa-bars")
         menuHamburger.classList.remove("fa-x")
     }
+}
+
+function hideMenuHamburger() {
+    mobileMenuHide.classList.toggle("mobileMenuOpen")
+    menuHamburger.classList.remove("fa-x")
+    menuHamburger.classList.add("fa-bars")
 }
 
 function share(){

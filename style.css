@@ -90,7 +90,7 @@ body {
     box-shadow: 4px 4px 15px var(--blue-color);
 }
 
-.mobileMenuItem {
+.mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
     font-style: var(--ubuntu);    
     font-size: 1.4rem;
     font-weight: bold;
@@ -98,10 +98,15 @@ body {
     width: 14rem;
 }
 
-.mobileMenuItem:hover {
+.mobileMenuItemHome:hover, .mobileMenuItemAbout:hover, .mobileMenuItemEducation:hover, .mobileMenuItemServices:hover, .mobileMenuItemSkills:hover, .mobileMenuItemContacts:hover {
     color: var(--orange-color);
     text-decoration: underline;
     transition: all 200ms;
+}
+
+.mobileMenuHide a span {
+    color: var(--orange-color);
+    font-weight: bold;
 }
 
 .fa-bars, .fa-share-nodes {
@@ -113,6 +118,10 @@ body {
 .fa-bars:hover, .fa-share-nodes:hover {
     color: var(--orange-color);
     transition: color 0.2s ease;
+}
+
+.fa-arrow-right {
+    color: var(--orange-color);
 }
 
 .fa-x {
