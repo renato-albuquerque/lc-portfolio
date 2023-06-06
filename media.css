@@ -1,0 +1,67 @@
+@media (min-width: 375px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 35.5rem;
+    }
+
+    /* .main {
+        width: 35.5rem;
+    }
+
+    .about {
+        width: 35.5rem;
+    }
+
+    .education {
+        width: 35.5rem;
+    }
+
+    .services {
+        width: 35.5rem;
+    }
+
+    .skills {
+        width: 35.5rem;
+    }
+
+    .contacts {
+        width: 35.5rem;
+    }
+
+    .footer {
+        width: 35.5rem;
+    } */
+}
+
+@media (min-width: 425px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 40.5rem;
+    }
+
+    /* .main {
+        width: 40.5rem;
+    }
+
+    .about {
+        width: 40.5rem;
+    }
+
+    .education {
+        width: 40.5rem;
+    }
+
+    .services {
+        width: 40.5rem;
+    }
+
+    .skills {
+        width: 40.5rem;
+    }
+
+    .contacts {
+        width: 40.5rem;
+    }
+
+    .footer {
+        width: 40.5rem;
+    } */
+}
