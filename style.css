@@ -177,15 +177,6 @@ body {
     color: var(--orange-color);
 }
 
-/* .buttonMain {
-    background-color: var(--blue-color);
-    color: var(--orange-color);
-    font-family: var(--ubuntu);
-    font-weight: bold;
-    padding: 1rem 2rem;
-    border-radius: 3rem;
-} */
-
 .iconsMain {
     display: flex;
     justify-content: center;
