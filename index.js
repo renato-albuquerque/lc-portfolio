@@ -30,7 +30,7 @@ function hideMenuHamburger() {
     menuHamburger.classList.add("fa-bars")
 }
 
-function share(){
+function share() {
 	if (navigator.share !== undefined) {
 		navigator.share({
 			title: 'Portfólio - Luciano Costa',
