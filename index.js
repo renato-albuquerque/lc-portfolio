@@ -35,7 +35,7 @@ function share() {
 		navigator.share({
 			title: 'Portfólio - Luciano Costa',
 			text: 'Consultor Empresarial',
-			url: 'https://renato-albuquerque.github.io/lc-portfolio/'
+			url: 'https://portfolio-lucianocosta.vercel.app/'
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
