@@ -19,7 +19,7 @@
 </head>
 <body>
     
-    <!-- header -->
+    <!-- header, mobile first -->
 
     <div class="containerHeader">
         <header class="header">
@@ -40,14 +40,27 @@
                     <i class="fa-solid fa-share-nodes" onclick="share()"></i>
                 </div>
             </nav>
+
+            <!-- tablet/desktop menu (hide) -->
+
+            <nav class="tabletLaptopMenu">
+                <a class="tabletLaptopMenuItem" href="#home">Home</a>
+                <a class="tabletLaptopMenuItem" href="#about">Sobre</a>
+                <a class="tabletLaptopMenuItem" href="#education">Formação</a>
+                <a class="tabletLaptopMenuItem" href="#services">Serviços</a>
+                <a class="tabletLaptopMenuItem" href="#skills">Habilidades</a>
+                <a class="tabletLaptopMenuItem" href="#contacts">Contatos</a>
+            </nav>
+            
         </header>
     </div>
 
+
+
     <!-- home -->
 
-    
     <main class="main" id="home">
-        <img class="imageMain" src="files/image-meeting.jpg" alt="Imagem de profissionais em uma reunião.">
+        <img class="imageMain" src="files/photo-luciano2.png" alt="Imagem de profissionais em uma reunião.">
         <div class="textsMain">
             <h4 class="textOneMain">Olá! Eu sou</h4>
             <h2 class="textTwoMain">Luciano Costa</h2>
@@ -55,7 +68,7 @@
             <h4 class="textFourMain">Engenheiro de Produção</h4>
             <div class="iconsMain">
                 <a href="https://wa.me/+5585988996917" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
-                <a href="lucianocostta@yahoo.com.br" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="lucianocostta@yahoo.com.br" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
                 <a href="https://www.linkedin.com/in/luciano-costa-67969327/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
@@ -100,7 +113,7 @@
     <!-- services -->
 
     <section class="services" id="services">
-        <h3 class="titleServices">Serviços</h3>
+        <h3 class="titleServices">Serviços Ofertados</h3>
         <div class="alignServices">
             <p class="iconServices"><strong>1</strong></p>
             <p class="textServices">Modelagem de processos utilizando ferramentas de BPM. Análise crítica dos processos modelados e proposição de alternativas de otimização desses processos. Documentação dos processos modelados;</p>
@@ -165,7 +178,7 @@
             <a class="textContacts" href="https://wa.me/+5585988996917" target="_blank">(85) 98899-6917</a>
         </div>
         <div class="iconTextContacts">
-            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-solid fa-envelope"></i>
             <a class="textContacts" href="mailto:lucianocostta@yahoo.com.br" target="_blank">lucianocostta@yahoo.com.br</a>
         </div>
         <div class="iconTextContacts">
