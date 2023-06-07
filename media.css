@@ -54,7 +54,7 @@
         font-size: 3rem;
     }
 
-    .fa-bars, .fa-share-nodes {
+    .fa-bars, .fa-share-nodes { /* display none mobile icons. */
         display: none;
     }
 
