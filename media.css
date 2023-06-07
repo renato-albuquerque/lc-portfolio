@@ -9,6 +9,8 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+/* mobile m, 375px */
+
 @media (min-width: 375px) {
     .header, .main, .about, .education, .services, .skills, .contacts, .footer {
         width: 35.5rem;
@@ -19,6 +21,8 @@
     }
 }
 
+/* mobile l, 425px */
+
 @media (min-width: 425px) {
     .header, .main, .about, .education, .services, .skills, .contacts, .footer {
         width: 40.5rem;
@@ -28,6 +32,8 @@
         width: 20%;
     }
 }
+
+/* tablet, 768px */
 
 @media (min-width: 768px) {
     .header, .main, .about, .education, .services, .skills, .contacts, .footer {
@@ -49,12 +55,7 @@
     }
 
     .fa-bars, .fa-share-nodes {
-        color: var(--blue-color);
-        cursor: none;
-    }
-
-    .fa-bars:hover, .fa-share-nodes:hover {
-        color: var(--blue-color);
+        display: none;
     }
 
     .tabletLaptopMenu {
@@ -104,7 +105,7 @@
         margin-bottom: 4rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
         font-size: 3.5rem;
     }
 
@@ -194,6 +195,8 @@
     }
 }
 
+/* laptop, 1024px */
+
 @media (min-width: 1024px) {
     .header, .main, .about, .education, .services, .skills, .contacts, .footer {
         width: 100.4rem;
@@ -232,7 +235,7 @@
         margin-bottom: 4rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
         font-size: 4.5rem;
     }
 

@@ -29,6 +29,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* mobile s, 320px */
+
 /* header */
 
 .hide {
@@ -188,12 +190,12 @@ body {
     gap: 3rem;
 }
 
-.fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+.fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
     color: var(--blue-color);
     font-size: 2.5rem;
 }
 
-.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-linkedin:hover {
+.fa-square-whatsapp:hover, .fa-yahoo:hover, .fa-linkedin:hover {
     color: var(--orange-color);
     transition: all .2s;
 }
