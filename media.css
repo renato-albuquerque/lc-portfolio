@@ -76,7 +76,7 @@
         transition: all 0.2s;
     }
 
-    /* main */
+    /* home */
 
     .main {
         display: flex;
@@ -217,7 +217,7 @@
         font-size: 1.8rem;
     }
 
-    /* main */
+    /* home */
 
     .textOneMain, .textThreeMain, .textFourMain {
         font-size: 2.5rem;
