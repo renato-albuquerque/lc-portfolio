@@ -53,6 +53,10 @@
         cursor: none;
     }
 
+    .fa-bars:hover, .fa-share-nodes:hover {
+        color: var(--blue-color);
+    }
+
     .tabletLaptopMenu {
         display: flex;
         justify-content: space-between;
