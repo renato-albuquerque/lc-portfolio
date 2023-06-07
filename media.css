@@ -41,6 +41,11 @@
     }
 
     .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
+        border-bottom: 2px solid var(--orange-color); 
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4rem;
         font-size: 2.5rem;
     }
 
@@ -54,7 +59,7 @@
         font-size: 3rem;
     }
 
-    .fa-bars, .fa-share-nodes { /* display none mobile icons. */
+    .navigation-2 i {   /* hide hamburger menu and share button. */
         display: none;
     }
 
@@ -114,25 +119,7 @@
         margin: 10rem 0 0;
     }
 
-    /* about */
-
-    .titleAbout {
-        border-bottom: 2px solid var(--orange-color); 
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 4rem;
-    }
-
     /* education */
-
-    .titleEducation {
-        border-bottom: 2px solid var(--orange-color); 
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 4rem;
-    }
 
     .logoUfc, .logoIbmec {
         width: 15%;
@@ -140,27 +127,11 @@
 
     /* services */
 
-    .titleServices {
-        border-bottom: 2px solid var(--orange-color); 
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 4rem;
-    }
-
     .alignServices {
         gap: 3rem;
     }
 
     /* skills */
-
-    .titleSkills {
-        border-bottom: 2px solid var(--orange-color); 
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 4rem;
-    }
 
     .iconSkills {
         font-size: 2rem;
@@ -174,14 +145,6 @@
 
     .iconTextContacts {        
         gap: 3rem;
-    }
-
-    .titleContacts {
-        border-bottom: 2px solid var(--orange-color); 
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 4rem;
     }
 
     .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
