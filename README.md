@@ -1,4 +1,4 @@
-# Website Portfolio
+# Website Portfolio | Business Consultant | Production Engineer
 
 Freelance project developed for the business consultant and production engineer Luciano Costa. Project has sections of: home, about, education, services, skills, contacts. Project developed in June/2023.
 
@@ -25,9 +25,16 @@ Users should be able to:
 
 ### Screenshot
 
+#### Responsive Viewer
 ![screenshot](files/screencapture-allscreens.png)
+
+#### Mobile
 ![screenshot](files/screencapture-mobile.png)
+
+#### Tablet
 ![screenshot](files/screencapture-tablet.png)
+
+#### Laptop
 ![screenshot](files/screencapture-laptop.png)
 
 ### Links
